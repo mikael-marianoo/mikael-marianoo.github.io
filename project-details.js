@@ -117,65 +117,6 @@ const projectsData = {
             { text: 'View Case Study', icon: 'fas fa-book-open', type: 'primary', url: '#' },
             { text: 'Contact for Demo', icon: 'fas fa-envelope', type: 'secondary', url: '#contact' }
         ]
-    },
-    'api-integration': {
-        title: 'Enterprise API Integration',
-        subtitle: 'Scalable Backend Solutions',
-        description: 'A robust API integration solution designed to connect disparate enterprise systems, enabling seamless data flow and improving operational efficiency across multiple platforms.',
-        overview: [
-            'The Enterprise API Integration project was developed to solve complex data synchronization challenges across multiple enterprise systems. This solution provides a unified interface for diverse data sources while maintaining high performance and reliability.',
-            'The system features RESTful API design, real-time data synchronization, comprehensive error handling, and scalable architecture. It has successfully reduced data inconsistencies by 95% and improved system integration efficiency by 70%.',
-            'Key technical achievements include implementing robust security protocols, developing comprehensive API documentation, and creating monitoring systems that ensure 99.9% uptime across all integrated services.'
-        ],
-        technologies: [
-            { name: 'Node.js', icon: 'fab fa-node-js' },
-            { name: 'Express.js', icon: 'fas fa-server' },
-            { name: 'MongoDB', icon: 'fas fa-leaf' },
-            { name: 'REST APIs', icon: 'fas fa-plug' },
-            { name: 'Docker', icon: 'fab fa-docker' }
-        ],
-        features: [
-            'RESTful API architecture',
-            'Real-time data synchronization',
-            'Comprehensive error handling',
-            'API rate limiting and security',
-            'Automated testing suite',
-            'Performance monitoring'
-        ],
-        gallery: [
-            {
-                title: 'API Architecture',
-                description: 'System architecture showing API endpoints and data flow',
-                icon: 'fas fa-sitemap',
-                background: 'api-bg',
-                image: 'images/projects/api-integration/api-architecture.jpg'
-            },
-            {
-                title: 'Integration Dashboard',
-                description: 'Monitoring interface for API performance and health',
-                icon: 'fas fa-network-wired',
-                background: 'api-bg',
-                image: 'images/projects/api-integration/integration-dashboard.jpg'
-            },
-            {
-                title: 'Security Layer',
-                description: 'Authentication and authorization implementation',
-                icon: 'fas fa-shield-alt',
-                background: 'api-bg',
-                image: 'images/projects/api-integration/security-layer.jpg'
-            },
-            {
-                title: 'Documentation Portal',
-                description: 'Interactive API documentation and testing interface',
-                icon: 'fas fa-book',
-                background: 'api-bg',
-                image: 'images/projects/api-integration/documentation-portal.jpg'
-            }
-        ],
-        actions: [
-            { text: 'View Documentation', icon: 'fas fa-book-open', type: 'primary', url: '#' },
-            { text: 'GitHub Repository', icon: 'fab fa-github', type: 'secondary', url: '#' }
-        ]
     }
 };
 
